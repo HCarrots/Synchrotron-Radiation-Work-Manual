@@ -1,0 +1,117 @@
+# ------------------------------------------------------------------------------
+# LaTeX intermediate files
+# ------------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.idx
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.fls
+*.log
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.synctex
+*.nav
+*.snm
+*.vrb
+
+# ------------------------------------------------------------------------------
+# Backup / temp files
+# ------------------------------------------------------------------------------
+*.bak
+*.sav
+*.tmp
+*~
+*.backup
+*.swp
+*.swo
+*.dvi
+*.xdv
+
+# ------------------------------------------------------------------------------
+# PDF, PostScript, and other build outputs
+# ------------------------------------------------------------------------------
+*.pdf
+*.ps
+*.eps
+
+# ------------------------------------------------------------------------------
+# Output from specific packages or tools
+# ------------------------------------------------------------------------------
+# glossaries
+*.ist
+
+# minted package
+_minted*
+*.pyg
+
+# beamer
+*.nav
+*.snm
+*.vrb
+
+# tikz externalization
+*.dpth
+*.md5
+*.auxlock
+
+# makeindex
+*.ilg
+
+# arara
+*.run.xml
+
+# latexmk
+latexmkrc
+
+# ------------------------------------------------------------------------------
+# Editor and OS specific
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode / TeXstudio / Overleaf / etc.
+.vscode/
+*.synctex(busy)
+*.synctex.gz
+*.synctex
+*.out.ps
+*.out.pdf
+*.out.dvi
+*.out.log
+*.out.synctex
+*.out.synctex.gz
+*.out.bbl
+*.out.blg
+*.out.fls
+*.out.fdb_latexmk
+*.out.toc
+*.out.aux
+
+# ------------------------------------------------------------------------------
+# Custom build or temporary directories
+# ------------------------------------------------------------------------------
+build/
+out/
+output/
+auto/
+temp/
+tmp/
